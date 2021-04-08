@@ -1,0 +1,29 @@
+.Nosotros{
+
+    img {
+    position: relative;
+    bottom: 89px;
+    width: 100%;
+    }
+
+    .venimos {
+        display: block;
+        margin: -95px 0 0 5%;
+
+        h2 {
+            width: 55%;
+            margin-bottom: 8px;
+        }
+
+        .text {
+            margin-right: 16px;
+            font-size: 14px;
+            color: $color-text;
+            letter-spacing: 0;
+            line-height: 22px;   
+            text-align:start;         
+        }
+
+    }
+
+}

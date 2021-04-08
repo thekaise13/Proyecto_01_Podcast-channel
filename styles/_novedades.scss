@@ -1,0 +1,39 @@
+.novedades {
+    margin-top: 42px;
+    clip-path: polygon(0 calc(0% + 5vh), 100% 0, 100% 100%, 0 100%);
+    background-image: linear-gradient(225deg, $color-poligono 0%, $color-poligono-100 100%);
+    width: 100%;
+    height: 341px ;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+        color: $bg;
+        line-height: 42px;
+        padding-top: 64px;
+        width: 90%;
+        margin: 0 5%;
+    }
+    a {
+        width: 90%;
+        height: 48px;
+        background: $color-boton;
+        font-family: $font-mono;
+        font-size: 16px;
+        text-decoration: none;
+        margin: 36px 0 0 5%;
+        padding: 15px;
+        text-align: center;
+        color: $color-text;
+        line-height: 22px;
+        letter-spacing: 0;
+
+        &:hover{
+            background-image: linear-gradient(225deg, $color-poligono 0%, #00F0B8 100%);
+            color:$bg;
+        }
+
+    }
+}

@@ -1,0 +1,16 @@
+.imagenes {
+    display: grid;
+    grid-template-rows:repeat(6,1fr);
+    margin-top: 13px;
+     
+    img {
+        width: 100%;
+     }
+}
+.Entrevistas {
+    margin-top: 54px;
+
+    h2 {
+        margin-left: 5%;
+    }
+}

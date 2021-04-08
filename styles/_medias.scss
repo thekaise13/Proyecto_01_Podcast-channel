@@ -1,0 +1,352 @@
+@media only screen and (min-device-width: 1024px){
+    .ul-menu {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        position:relative;
+        top: -41px;
+        right:-30px;
+        width: 100%;
+        margin-right: 10px;
+        background: $bg;
+    }
+    .logo {
+        width: 36px;
+        height: 36px;
+        margin:6px 10px;
+    }
+
+    .li-menu {
+        margin: 6px 24px;
+    }
+    
+
+    header nav .menu ul li a {
+        color: $color-text;
+    }
+    header nav .menu span {
+        display: none;
+    }
+
+    .hello {
+        margin-left: 14%;
+
+        h1 {
+            font-size: 64px;
+            width: 91%;
+
+        }
+        p {
+            width: 46%;
+            margin-top: 0;
+        }
+        a {
+            width: 24.23%;
+            margin-top: 50px;
+        }
+    }
+
+    .Azul {
+        clip-path: polygon(0 calc(0% + 21vh), 100% 0, 100% calc(100% - 21vh), 0 100%);
+        height: 1047px;
+    .Episodios-1 {
+        padding-top: 11rem;
+        margin: 0 0 -40px 14%;
+        font-size: 48px;
+    }
+    }
+    .spotify {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items:flex-end;
+        column-gap: 5%;
+        margin: 26px 7%;
+        height: 560px;
+
+        iframe {
+            width: 100%;
+            height: 236px;
+            margin: 0;
+            border-style: none;
+
+        }
+        
+    }
+
+    .Nosotros {
+        display: flex;
+        
+        img {
+            width: 40%;
+            bottom: 200px;
+            margin-left: 8.2%;
+        }
+        .venimos {
+            width: 50%;
+            margin: 60px 14.7% 0 2.9%;
+
+            h2 {
+                width: 90%;
+                font-size: 48px;
+            }
+
+            .text {
+                line-height: 24px;
+                font-size: 16px;
+                margin-right: 0;
+            }
+        }
+    }
+    .Entrevistas{
+        margin-top: -150px;
+
+        .imagenes {
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+        h2 {
+            margin: 0 0 36px 14%;
+            font-size: 48px;
+        }
+
+    }
+    .temas .temas-tittle {
+        font-size: 48px;
+        margin-left: 14%;
+    }
+    .contenedor-padre {
+        display: flex;
+        flex-direction:row;
+        margin-left: 19%;
+        width: 70%;
+
+        .contenedor {
+            margin-right: 11%;
+            width: 15%;
+            h3 {
+                width: 220px;
+                margin: 0 44px 0 29px;
+            }
+            img {
+                margin-right: 13px;
+            }
+        }
+    }
+
+    .novedades {
+        clip-path: polygon(0 calc(0% + 20vh), 100% 0, 100% 100%, 0 100%);
+        height: 500px;
+        h2 {
+            margin-top: 150px;
+        }
+    
+    a {
+        margin: 30px 0 0 38%;
+        width: 25%;
+    }
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .p-footer {
+            margin: 36px 7.45%;
+        }
+
+        .ul-footer {
+            justify-content: space-between;
+            margin: 36px 7.45%;
+            width: 17.4%;
+
+            .li-footer a i {
+                    font-size: 18px;
+                }
+        }
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
+    header {
+        padding: 1rem 4%;
+    }
+    .ul-menu {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        position:relative;
+        top: -41px;
+        right:-24px;
+        width: 100%;
+        margin-right: 10px;
+        background: $bg;
+    }
+    .logo {
+        width: 36px;
+        height: 36px;
+        margin:6px 10px;
+    }
+
+    .li-menu {
+        margin: 6px 10px;
+    }
+    
+
+    header nav .menu ul li a {
+        color: $color-text;
+        font-size: 14px;
+    }
+    header nav .menu span {
+        display: none;
+    }
+    .hello {
+        margin-left: 14%;
+
+        h1 {
+            width: 91%;
+            font-size: 48px;
+
+        }
+        p {
+            width: 70%;
+            margin-top: 0;
+        }
+        a {
+            width: 24.23%;
+            margin-top: 35px;
+        }
+    }
+    
+    .Azul {
+        clip-path: polygon(0 calc(0% + 21vh), 100% 0, 100% calc(100% - 21vh), 0 100%);
+        height: 950px;
+    .Episodios-1 {
+        padding-top: 10rem;
+        margin: 0 0 -40px 14%;
+        font-size: 48px;
+    }
+    }
+    .spotify {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items:flex-end;
+        column-gap: 5%;
+        margin: 26px 7%;
+        height: 560px;
+
+        iframe {
+            width: 100%;
+            height: 236px;
+            margin: 0;
+            border-style: none;
+
+        }
+        
+    }
+
+    .Nosotros {
+        display: flex;
+        
+        img {
+            width: 45%;
+            bottom: 136px;
+            margin-left: 6.2%;
+        }
+        .venimos {
+            width: 50%;
+            margin: 0 6.7% 0 1.9%;
+
+            h2 {
+                width: 90%;
+            }
+
+            .text {
+                line-height: 24px;
+                margin-right: 0;
+            }
+        }
+    }
+    .Entrevistas{
+        margin-top: -150px;
+
+        .imagenes {
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+        }
+        h2 {
+            margin: 36px 0 36px 14%;
+            font-size: 48px;
+        }
+    }
+
+    .temas .temas-tittle {
+        font-size: 48px;
+        margin-left: 14%;
+    }
+    .contenedor-padre {
+        display: flex;
+        flex-direction:row;
+        margin-left: 19%;
+        width: 70%;
+
+        .contenedor {
+            margin-right: 11%;
+            width: 15%;
+            h3 {
+                width: 126px;
+                margin: 0 44px 0 29px;
+                font-size: 16px;
+            }
+            img {
+                margin-right: 13px;
+            }
+        }
+        }
+
+        .novedades {
+            clip-path: polygon(0 calc(0% + 20vh), 100% 0, 100% 100%, 0 100%);
+            height: 400px;
+            h2 {
+                margin-top: 95px;
+            }
+        
+            a {
+                margin: 30px 0 0 32%;
+                width: 31%;
+            }
+        }
+
+        
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .p-footer {
+            margin: 36px 3.45%;
+        }
+
+        .ul-footer {
+            justify-content: space-between;
+            margin: 36px 3.45%;
+            width: 17.4%;
+
+            .li-footer a i {
+                    font-size: 18px;
+                }
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
