@@ -32,7 +32,7 @@ nav {
     list-style: none;
     background: #0000EC;
     height: 0px;
-    transition: height 0.5s cubic-bezier(0.4, 0, 1, 1);
+    transition: height 0.5s linear;
 }
 .li-menu {
     position: relative;

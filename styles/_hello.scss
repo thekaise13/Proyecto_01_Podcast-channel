@@ -2,7 +2,13 @@
     display: flex;
     flex-flow: column wrap;
     margin: 16px 5%;
-
+     
+    .cambio_mobile {
+    display: block;
+    }
+    .cambio_escri {
+        display: none;
+    }
     p {
         font-size: 14px;
         color: $color-text;
